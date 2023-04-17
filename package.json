@@ -1,6 +1,6 @@
 {
   "name": "vue-truncate-read-more",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A Vue.js V3/2 plugin for truncating text with a 'Read More' button to expand the text.",
   "repository": {
     "type": "git",
@@ -38,8 +38,8 @@
     "@vue/compiler-sfc": "^3.2.47",
     "typescript": "^5.0.4",
     "vite": "^4.0.0",
-    "vue-tsc": "^1.2.0",
-    "vue": "^3.0.0"
+    "vue": "^3.0.0",
+    "vue-tsc": "^1.2.0"
   },
   "peerDependencies": {
     "@vue/composition-api": "^1.0.0-rc.1",
