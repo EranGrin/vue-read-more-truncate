@@ -1,26 +1,23 @@
 import { defineConfig } from 'vite'
 import path from 'path';
-import vue from "@vitejs/plugin-vue";
-
+import vue from '@vitejs/plugin-vue';
+import cssInjectedByJsPlugin from 'vite-plugin-css-injected-by-js'
 
 export default defineConfig({
-    optimizeDeps: {
-        exclude: ['vue-demi']
-    },    
-    plugins: [vue()],
+    plugins: [vue(), cssInjectedByJsPlugin()],
     build: {
         lib: {
-        entry: path.resolve(__dirname, 'index.js'),
-        name: 'ReadMoreTruncate',
-        fileName: (format) => `read-more-truncate.${format}.js`
+            entry: path.resolve(__dirname, 'index.js'),
+            name: 'TruncateReadMore',
+            fileName: (format) => `truncate-read-more.${format}.js`
         },
         rollupOptions: {
-        external: ['vue'],
-        output: {
-            globals: {
-            vue: 'Vue'
+            external: ['vue'],
+            output: {
+                globals: {
+                    vue: 'Vue'
+                }
             }
         }
-        }
-  }
+    }
 })
