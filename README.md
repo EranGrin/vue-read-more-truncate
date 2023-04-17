@@ -57,52 +57,54 @@ export default {
 In your Vue component's template:
 
 ```html
-&lt;truncate-read-more
+<truncate-read-more
   :truncate-value="200"
   :only-if-more-than-value="275"
-&gt;
-  &lt;template #html&gt;
-    &lt;div
+>
+  <template #html>
+    <div
       v-html="data.html"
-    /&gt;
-  &lt;/template&gt;
-&lt;/truncate-read-more&gt;
+    />
+  </template>
+</truncate-read-more>
 ```
 
 or in Vue 3.x you can use pascal case:
 
 ```html
-&lt;TruncateReadMore
+<TruncateReadMore
   :truncate-value="200"
   :only-if-more-than-value="275"
-&gt;
-    &lt;template #html&gt;
-        &lt;div
+>
+    <template #html>
+        <div
         v-html="data.html"
-        /&gt;
-    &lt;/template&gt;
-&lt;/TruncateReadMore&gt;
+        />
+    </template>
+</TruncateReadMore>
 ```
 
-## As a Wrapper
+### As a Wrapper
 
 You can also use the plugin as a wrapper around your content:
 
 ```html
-&lt;truncate-read-more
+<truncate-read-more
   :truncate-value="200"
   :only-if-more-than-value="275"
-&gt;
-    &lt;template #html&gt;
-        &lt;div&gt;
-        &lt;!-- Your long text content --&gt;
-        &lt;/div&gt;
-    &lt;/template&gt;
-&lt;/truncate-read-more&gt;
+>
+    <template #html>
+        <div>
+        <!-- Your long text content -->
+        </div>
+    </template>
+</truncate-read-more>
 ```
 
 ## Demo link
 [Stack Blitz Demo](https://vue-e4fd7y.stackblitz.io)
+
+
 
 ## Props
 
