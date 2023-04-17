@@ -30,13 +30,24 @@
   "license": "MIT",
   "dependencies": {
     "text-clipper": "^2.2.0",
-    "vue": "^3.0.0"
+    "vue": "^3.0.0",
+    "vue-demi": "latest"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",
     "@vue/compiler-sfc": "^3.2.47",
     "typescript": "^5.0.4",
     "vite": "^4.0.0",
-    "vue-tsc": "^1.2.0"
+    "vue-tsc": "^1.2.0",
+    "vue": "^3.0.0"
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^1.0.0-rc.1",
+    "vue": "^2.0.0 || >=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@vue/composition-api": {
+      "optional": true
+    }
   }
 }

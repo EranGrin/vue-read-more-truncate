@@ -4,6 +4,9 @@ import vue from "@vitejs/plugin-vue";
 
 
 export default defineConfig({
+    optimizeDeps: {
+        exclude: ['vue-demi']
+    },    
     plugins: [vue()],
     build: {
         lib: {
