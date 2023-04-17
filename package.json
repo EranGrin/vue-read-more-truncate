@@ -1,13 +1,13 @@
 {
-  "name": "vue-truncate-readmore",
-  "version": "1.0.2",
+  "name": "vue-truncate-read-more",
+  "version": "1.0.3",
   "description": "A Vue.js V3/2 plugin for truncating text with a 'Read More' button to expand the text.",
   "repository": {
     "type": "git",
     "url": "https://github.com/EranGrin/vue-read-more-truncate"
   },
   "main": "index.js",
-  "types": "vue-truncate-readmore.d.ts",
+  "types": "vue-truncate-read-more.d.ts",
   "module": "dist/read-more-truncate.es.js",
   "exports": {
     ".": {

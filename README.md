@@ -13,13 +13,13 @@ A Vue.js plugin to truncate and expand text content with a customizable read mor
 ## Installation
 
 ```bash
-npm install vue-truncate-readmore
+npm install vue-truncate-read-more
 ```
 
 or
 
 ```bash
-yarn add vue-truncate-readmore
+yarn add vue-truncate-read-more
 ```
 
 ## Usage
@@ -31,10 +31,10 @@ In your main.js file:
 ```javascript
 import { createApp } from 'vue';
 import App from './App.vue';
-import TruncateReadmore from 'vue-truncate-readmore';
+import VueTruncateReadMore from 'vue-truncate-read-more';
 
 const app = createApp(App);
-app.use(TruncateReadmore);
+app.use(VueTruncateReadMore);
 app.mount('#app');
 ```
 
@@ -43,11 +43,11 @@ app.mount('#app');
 In your Vue component:
 
 ```javascript
-import TruncateReadmore from 'vue-truncate-readmore';
+import TruncateReadMore from 'vue-truncate-read-more';
 
 export default {
   components: {
-    TruncateReadmore
+    TruncateReadMore
   },
 };
 ```

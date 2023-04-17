@@ -1,18 +1,18 @@
-// vue-truncate-readmore.d.ts
-declare module 'vue-truncate-readmore' {
+// vue-truncate-read-more.d.ts
+declare module 'vue-truncate-read-more' {
     import { App } from 'vue';
   
-    interface TruncateReadmoreOptions {
+    interface TruncateReadMoreOptions {
       truncateValue?: number;
       onlyIfMoreThanValue?: number;
       readMoreButtonText?: string;
       readLessButtonText?: string;
     }
   
-    const TruncateReadmore: {
-      install: (app: App, options?: TruncateReadmoreOptions) => void;
+    const TruncateReadMore: {
+      install: (app: App, options?: TruncateReadMoreOptions) => void;
     };
   
-    export default TruncateReadmore;
+    export default TruncateReadMore;
   }
   

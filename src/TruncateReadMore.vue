@@ -1,5 +1,5 @@
 <template>
-  <div class="truncate-readmore">
+  <div class="truncate-read-more">
       <div ref="scrollRef" />
       <div style="position:relative">
           <div
@@ -26,7 +26,7 @@
           >
               <div
                   v-if="isExpanded"
-                  class="truncate-readmore__button"
+                  class="truncate-read-more__button"
                   @click="toggle"
               >
                   <svg viewBox="0 0 19 12" fill="currentColor" style="width: 9.3765px; height: 5.5855px; margin-right: 0.3rem; margin-bottom: 0.15rem;" >
@@ -36,7 +36,7 @@
               </div>
               <div
                   v-if="!isExpanded"
-                  class="truncate-readmore__button"
+                  class="truncate-read-more__button"
                   @click="toggle"
               >
               <svg viewBox="0 0 18.753 11.171" fill="currentColor" style="width: 9.3765px; height: 5.5855px; margin-right: 0.3rem; margin-bottom: 0.1rem;" >
@@ -59,7 +59,7 @@
 
 /**
 * @example of use in parent component
-*  <truncate-readmore
+*  <truncate-read-more
 *          :truncate-value="200"
 *          :only-if-more-than-value="275"
 *      >
@@ -68,7 +68,7 @@
 *                  v-html="data.html"
 *              />
 *          </template>
-*      </truncate-readmore>
+*      </truncate-read-more>
 */
 
 import clip from 'text-clipper';
@@ -277,7 +277,7 @@ export default {
       overflow-anchor: none;
   }
 
-  .truncate-readmore__button {
+  .truncate-read-more__button {
       display: inline-block;
       cursor: pointer;
   }

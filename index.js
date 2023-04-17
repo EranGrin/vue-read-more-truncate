@@ -1,14 +1,14 @@
-import TruncateReadmore from './src/TruncateReadmore.vue';
+import TruncateReadMore from './src/TruncateReadMore.vue';
 
 const installVue2 = (Vue) => {
-  Vue.component('truncate-readmore', TruncateReadmore);
+  Vue.component('truncate-read-more', TruncateReadMore);
 };
 
 const installVue3 = (app) => {
-  app.component('truncate-readmore', TruncateReadmore);
+  app.component('truncate-read-more', TruncateReadMore);
 };
 
-const VueTruncateReadmore = {
+const VueTruncateReadMore = {
   install: (instance) => {
     const isVue3 = instance.version && instance.version.startsWith('3');
     if (isVue3) {
@@ -20,4 +20,4 @@ const VueTruncateReadmore = {
 };
 
 // Export the component and the plugin object
-export { TruncateReadmore, VueTruncateReadmore };
+export { TruncateReadMore, VueTruncateReadMore };
