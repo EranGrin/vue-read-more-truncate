@@ -31,10 +31,10 @@ In your main.js file:
 ```javascript
 import { createApp } from 'vue';
 import App from './App.vue';
-import VueTruncateReadMore from 'vue-truncate-read-more';
+import TruncateReadMore from 'vue-truncate-read-more';
 
 const app = createApp(App);
-app.use(VueTruncateReadMore);
+app.use(TruncateReadMore);
 app.mount('#app');
 ```
 
@@ -95,7 +95,7 @@ You can also use the plugin as a wrapper around your content:
 >
     <template #html>
         <div>
-        <!-- Your long text content -->
+        <!-- Your long content -->
         </div>
     </template>
 </truncate-read-more>
