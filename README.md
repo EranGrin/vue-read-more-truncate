@@ -2,8 +2,6 @@
 
 A Vue.js plugin to truncate and expand text content with a customizable read more/less button.
 
-![Vue Truncate Readmore](demo-image-url)
-
 ## Features
 
 - Truncate text content to a specified number of characters
@@ -14,15 +12,15 @@ A Vue.js plugin to truncate and expand text content with a customizable read mor
 
 ## Installation
 
-\```bash
+```bash
 npm install vue-truncate-readmore
-\```
+```
 
 or
 
-\```bash
+```bash
 yarn add vue-truncate-readmore
-\```
+```
 
 ## Usage
 
@@ -30,7 +28,7 @@ yarn add vue-truncate-readmore
 
 In your main.js file:
 
-\```javascript
+```javascript
 import { createApp } from 'vue';
 import App from './App.vue';
 import TruncateReadmore from 'vue-truncate-readmore';
@@ -38,13 +36,13 @@ import TruncateReadmore from 'vue-truncate-readmore';
 const app = createApp(App);
 app.use(TruncateReadmore);
 app.mount('#app');
-\```
+```
 
 ### Local Registration
 
 In your Vue component:
 
-\```javascript
+```javascript
 import TruncateReadmore from 'vue-truncate-readmore';
 
 export default {
@@ -52,13 +50,13 @@ export default {
     TruncateReadmore
   },
 };
-\```
+```
 
 ### Template
 
 In your Vue component's template:
 
-\```html
+```html
 &lt;truncate-read-more
   :truncate-value="200"
   :only-if-more-than-value="275"
@@ -69,11 +67,11 @@ In your Vue component's template:
     /&gt;
   &lt;/template&gt;
 &lt;/truncate-read-more&gt;
-\```
+```
 
 or in Vue 3.x you can use pascal case:
 
-\```html
+```html
 &lt;TruncateReadMore
   :truncate-value="200"
   :only-if-more-than-value="275"
@@ -84,13 +82,13 @@ or in Vue 3.x you can use pascal case:
         /&gt;
     &lt;/template&gt;
 &lt;/TruncateReadMore&gt;
-\```
+```
 
 ## As a Wrapper
 
 You can also use the plugin as a wrapper around your content:
 
-\```html
+```html
 &lt;truncate-read-more
   :truncate-value="200"
   :only-if-more-than-value="275"
@@ -101,7 +99,10 @@ You can also use the plugin as a wrapper around your content:
         &lt;/div&gt;
     &lt;/template&gt;
 &lt;/truncate-read-more&gt;
+```
 
+## Demo link
+[Stack Blitz Demo](https://vue-e4fd7y.stackblitz.io)
 
 ## Props
 
