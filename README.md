@@ -10,6 +10,16 @@ A Vue.js plugin to truncate and expand text content with a customizable read mor
 - Smooth auto scrolling to the content when collapsed and outside of the viewport
 - Supports Vue 2.x and Vue 3.x JS/TS
 
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Global Registration](#global-registration)
+  - [Local Registration](#local-registration)
+- [Contributing](#contributing)
+- [License](#license)
+
+
 ## Installation
 
 ```bash
@@ -54,6 +64,8 @@ export default {
 
 ### Template
 
+Assuming data is coming from the server as HTML with markups
+
 In your Vue component's template:
 
 ```html
@@ -86,7 +98,7 @@ or in Vue 3.x you can use pascal case:
 
 ### As a Wrapper
 
-You can also use the plugin as a wrapper around your content:
+You can also use the plugin as a wrapper around your content or any compoenent that render text:
 
 ```html
 <truncate-read-more
@@ -115,6 +127,17 @@ You can also use the plugin as a wrapper around your content:
 | readMoreButtonText    | String  | 'Read more' | The text displayed on the read more button.                                                    |
 | readLessButtonText    | String  | 'Read less' | The text displayed on the read less button.                                                    |
 
-## License
+## Contributing
+Contributions are welcome! To contribute to the project, please follow these steps:
 
-MIT
+Fork the repository
+Create a new branch for your feature or bug fix
+Make your changes and commit them with a clear message
+Push your changes to your fork
+Submit a pull request to the main repository
+Please make sure to follow the code style and conventions used in the project.
+
+If you find a bug or have a feature request, please open an issue on the repository.
+
+## License
+This project is licensed under the MIT License
