@@ -1,8 +1,9 @@
 name: Deploy
-workflow_dispatch: {}
-push:
-  branches:
-    - main
+on:
+  workflow_dispatch: {}
+  push:
+    branches:
+      - main
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -30,4 +31,4 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v1
-        
+
