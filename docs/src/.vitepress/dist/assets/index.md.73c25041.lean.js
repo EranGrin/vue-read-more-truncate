@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a,O as r}from"./chunks/framework.d7e37bdc.js";const _=JSON.parse('{"title":"Vue Truncate Readmore","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),o={name:"index.md"},n=r("",6),i=[n];function s(c,l,u,d,h,m){return a(),t("div",null,i)}const f=e(o,[["render",s]]);export{_ as __pageData,f as default};
