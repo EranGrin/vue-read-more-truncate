@@ -5,8 +5,6 @@ export default {
   themeConfig: {
     nav: [
       { text: 'Installation', link: '/installation' },
-      { text: 'registration', link: '/registration' },
-      { text: 'usage-v3', link: '/usage-v3' },
     ],
     sidebar: [
       {
@@ -19,8 +17,8 @@ export default {
       {
         text: 'Usage',
         items: [
-          { text: 'usage-v2', link: '/usage-v2' },
-          { text: 'usage-v3', link: '/usage-v3' },
+          { text: 'usage-vue2', link: '/usage-v2' },
+          { text: 'usage-vue3', link: '/usage-v3' },
           { text: 'usage-as-wrapper', link: '/warpper-usage' },
           { text: 'props', link: '/props' },
         ],
