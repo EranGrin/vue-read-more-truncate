@@ -34,7 +34,13 @@
     "vue3",
     "plugin",
     "truncate",
-    "read-more"
+    "read-more",
+    "clamp",
+    "text-clipper",
+    "clipper",
+    "character-limit"
+    
+
   ],
   "author": "Your Name",
   "license": "MIT",
