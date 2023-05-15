@@ -19,6 +19,11 @@ A Vue.js plugin to truncate and expand text content with a customizable read mor
 - [Contributing](#contributing)
 - [License](#license)
 
+## Demo link
+[Stack Blitz Demo](https://stackblitz.com/edit/vue-e4fd7y?file=src/components/TruncateTest.vue)
+
+## Documentation
+[Documentation](https://erangrin.github.io/vue-read-more-truncate/#demo)
 
 ## Installation
 
@@ -112,10 +117,6 @@ You can also use the plugin as a wrapper around your content or any compoenent t
     </template>
 </truncate-read-more>
 ```
-
-## Demo link
-[Stack Blitz Demo](https://vue-e4fd7y.stackblitz.io)
-
 
 
 ## Props
